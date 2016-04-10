@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#tabs{
+  width: 768px;
+  height: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.menu{
+  margin: 0 10px;
+  padding: 0 0px;
+  background: #ccc;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+.textWrapper{
+  padding: 10px 25px;
+  }
+
+li {
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 2px;
+  float: left;
+  list-style: none;
+  background: #eee;
+}
+.activelink{
+  background: #fff;
+  height: 26px;
+}
+.links{
+
+  margin: 0 5px;
+  color: #000;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+.nonActive{
+  display: none;
+}
